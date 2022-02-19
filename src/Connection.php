@@ -7,7 +7,7 @@ class Connection {
 
     public static function getPDO (): PDO
     {
-        return new PDO('mysql:dbname=pcde;host=localhost', 'hugo.php', 'hugo.php');
+        return new PDO('mysql:dbname=;host=', '', '');
     }
 
 }
